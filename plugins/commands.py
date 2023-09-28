@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Uᴘᴅᴀᴛᴇs 🤖', url='https://t.me/Tamilan_BotsZ')
+                InlineKeyboardButton('🤖 Uᴘᴅᴀᴛᴇs 🤖', url='https://t.me/Marselupdate')
             ],
             [
                 InlineKeyboardButton('ℹ️ Hᴇʟᴘ ℹ️', url=f"https://t.me/{temp.U_NAME}?start=help")
@@ -45,12 +45,12 @@ async def start(client, message):
 
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs 💥', url='https://t.me/+MjAUb44jL9tkNjFl'),
-            InlineKeyboardButton('🔎 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 🔍', url='https://t.me/+zXWruLwLfLFjYzVl')
+            InlineKeyboardButton('💥 Mᴏᴠɪᴇ Channel 💥', url='https://t.me/+NQUP1T55qnVkMWI1'),
+            InlineKeyboardButton('🔎 Movie Gʀᴏᴜᴘ 🔍', url='https://t.me/Av_Ke_Movies_chat')
             ],[
-            InlineKeyboardButton('😅 Bot Maker & Editor 😊', callback_data='contact')
+            InlineKeyboardButton('😅 Person 😊', callback_data='contact')
             ],[
-            InlineKeyboardButton('💌 Aʙᴏᴜᴛ Aɴᴅ Iɴғᴏ 💌', callback_data= 'about')
+            InlineKeyboardButton('💌 Aʙᴏᴜᴛ Aɴᴅ Extra💌', callback_data= 'about')
             ],[
             InlineKeyboardButton('❌ Cʟᴏꜱᴇ ❌', callback_data='close_data')
         ]]
@@ -94,12 +94,12 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs 💥', url='https://t.me/+MjAUb44jL9tkNjFl'),
-            InlineKeyboardButton('🔎 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 🔍', url='https://t.me/+zXWruLwLfLFjYzVl')
+            InlineKeyboardButton('💥 Mᴏᴠɪᴇ Channel 💥', url='https://t.me/+NQUP1T55qnVkMWI1'),
+            InlineKeyboardButton('🔎 Movie Gʀᴏᴜᴘ 🔍', url='https://t.me/Av_Ke_Movies_chat')
             ],[
-            InlineKeyboardButton('😅 Bot Maker & Editor 😊', callback_data='contact')
+            InlineKeyboardButton('😅 Person 😊', callback_data='contact')
             ],[
-            InlineKeyboardButton('💌 Aʙᴏᴜᴛ Aɴᴅ Iɴғᴏ 💌', callback_data= 'about')
+            InlineKeyboardButton('💌 Aʙᴏᴜᴛ Aɴᴅ Extra💌', callback_data= 'about')
             ],[
             InlineKeyboardButton('❌ Cʟᴏꜱᴇ ❌', callback_data='close_data')
         ]]
