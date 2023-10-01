@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Uᴘᴅᴀᴛᴇs 🤖', url='https://t.me/Marselupdate')
+                InlineKeyboardButton('🤖 Cʜᴀɴɴᴇʟ 🤖', url='https://t.me/MarselMovie')
             ],
             [
                 InlineKeyboardButton('ℹ️ Hᴇʟᴘ ℹ️', url=f"https://t.me/{temp.U_NAME}?start=help")
@@ -45,11 +45,16 @@ async def start(client, message):
 
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton('💥 Mᴏᴠɪᴇ Channel 💥', url='https://t.me/+NQUP1T55qnVkMWI1'),
-            InlineKeyboardButton('🔎 Movie Gʀᴏᴜᴘ 🔍', url='https://t.me/Av_Ke_Movies_chat')
+            InlineKeyboardButton('💥 Mᴏᴠɪᴇ Channel 💥', url='https://t.me/+l_5oMi-MXmVkOTM9'),
+            InlineKeyboardButton('🔎 Movie Gʀᴏᴜᴘ 🔍', url='https://t.me/+zXWruLwLfLFjYzVl')
             ],[
-            InlineKeyboardButton('😅 Person 😊', callback_data='contact')
+           InlineKeyboardButton('📣 Uᴘᴅᴀᴛᴇ Channel 📣', url='https://t.me/+aukgA3hGuKZmMWE1'),
+            InlineKeyboardButton('😅 Pᴀʀsᴏɴ 😊', callback_data='contact')
             ],[
+            InlineKeyboardButton('🗞️Mʏ Cʜᴀɴɴᴇʟs🗒️', callback_data='sources'),
+            InlineKeyboardButton('🗿️Mʏ Bᴏᴛs🕹️️', callback_data='contact')
+            ],[
+            
             InlineKeyboardButton('💌 Aʙᴏᴜᴛ Aɴᴅ Extra💌', callback_data= 'about')
             ],[
             InlineKeyboardButton('❌ Cʟᴏꜱᴇ ❌', callback_data='close_data')
@@ -94,11 +99,18 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton('💥 Mᴏᴠɪᴇ Channel 💥', url='https://t.me/+NQUP1T55qnVkMWI1'),
-            InlineKeyboardButton('🔎 Movie Gʀᴏᴜᴘ 🔍', url='https://t.me/Av_Ke_Movies_chat')
+            InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton('😅 Person 😊', callback_data='contact')
+            InlineKeyboardButton('💥 Mᴏᴠɪᴇ Channel 💥', url='https://t.me/+l_5oMi-MXmVkOTM9'),
+            InlineKeyboardButton('🔎 Movie Gʀᴏᴜᴘ 🔍', url='https://t.me/+zXWruLwLfLFjYzVl')
             ],[
+           InlineKeyboardButton('📣 Uᴘᴅᴀᴛᴇ Channel 📣', url='https://t.me/+aukgA3hGuKZmMWE1'),
+            InlineKeyboardButton('😅 Pᴀʀsᴏɴ 😊', callback_data='contact')
+            ],[
+            InlineKeyboardButton('🗞️Mʏ Cʜᴀɴɴᴇʟs🗒️', callback_data='sources'),
+            InlineKeyboardButton('🗿️Mʏ Bᴏᴛs🕹️️', callback_data='contact')
+            ],[
+            
             InlineKeyboardButton('💌 Aʙᴏᴜᴛ Aɴᴅ Extra💌', callback_data= 'about')
             ],[
             InlineKeyboardButton('❌ Cʟᴏꜱᴇ ❌', callback_data='close_data')
