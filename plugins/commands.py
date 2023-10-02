@@ -52,7 +52,7 @@ async def start(client, message):
             InlineKeyboardButton('😅 Pᴀʀsᴏɴ 😊', callback_data='contact')
             ],[
             InlineKeyboardButton('🗞️Mʏ Cʜᴀɴɴᴇʟs🗒️', callback_data='sources'),
-            InlineKeyboardButton('🗿️Mʏ Bᴏᴛs🕹️️', callback_data='contact')
+            InlineKeyboardButton('🤖️Mʏ Bᴏᴛs🤖️️', callback_data='source')
             ],[
             
             InlineKeyboardButton('💌 Aʙᴏᴜᴛ Aɴᴅ Extra💌', callback_data= 'about')
@@ -108,7 +108,7 @@ async def start(client, message):
             InlineKeyboardButton('😅 Pᴀʀsᴏɴ 😊', callback_data='contact')
             ],[
             InlineKeyboardButton('🗞️Mʏ Cʜᴀɴɴᴇʟs🗒️', callback_data='sources'),
-            InlineKeyboardButton('🗿️Mʏ Bᴏᴛs🕹️️', callback_data='contact')
+            InlineKeyboardButton('🤖️Mʏ Bᴏᴛs🤖️️', callback_data='source')
             ],[
             
             InlineKeyboardButton('💌 Aʙᴏᴜᴛ Aɴᴅ Extra💌', callback_data= 'about')
