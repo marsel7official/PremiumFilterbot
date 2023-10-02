@@ -1,6 +1,6 @@
 class script(object):
-    START_TXT = """I Am Movie Search 🔍 Bot Now Search Movie 
-   </b>"""
+    START_TXT = """<b>Hᴇʏ {} ɪᴍ Mᴏᴠɪᴇ Sᴇᴀʀᴄʜ Bᴏᴛ Aɴᴅ ᴍᴏᴠɪᴇs ғɪʟᴛᴇʀ ʙᴏᴛ  Aɴᴅ Aᴡᴇsᴏᴍᴇ Aᴜᴛᴏ + Mᴀɴᴜᴀʟ Fɪʟᴛᴇʀ + Fɪʟᴇ Sʜᴀʀᴇ Bᴏᴛ.
+Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Nᴏᴡ Aɴᴅ Nᴏᴡ Sᴇᴀʀᴄʜ Mᴏᴠɪᴇ👇</b>"""
 
     HELP_TXT = """<b>Hᴇʏ {} Fʀɪᴇɴᴅ Hᴇʀᴇ Yᴏᴜʀ Bᴜᴛᴛᴏɴs 👇</b>"""
 
@@ -21,9 +21,8 @@ class script(object):
     
     PONG_TXT = """Cʜᴇᴄᴋ Mʏ Pɪɴɢ Bʏ Cʟɪᴄᴋɪɴɢ 👉 /ping"""
 
-    ABOUT_TXT = """<b>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/Tamilanz_Auto_Filter_Bot>ᴍᴏᴠɪᴇs ғɪʟᴛᴇʀ ʙᴏᴛ</a>
+    ABOUT_TXT = """<b>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/IronMan_mfilter_bot>ᴍᴏᴠɪᴇs Sᴇᴀʀᴄʜ ʙᴏᴛ</a>
 👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/MarselBotz>MARSEL</a>
-👨‍💻 Bot Owner : <a href=https://t.me/Gsusshdbs>Ankit</a>
 📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ
 📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3
 📡 ʜᴏsᴛᴇᴅ ᴏɴ : Free
