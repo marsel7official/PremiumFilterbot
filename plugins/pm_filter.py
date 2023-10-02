@@ -447,7 +447,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('😅 Pᴀʀsᴏɴ 😊', callback_data='contact')
             ],[
             InlineKeyboardButton('🗞️Mʏ Cʜᴀɴɴᴇʟs🗒️', callback_data='sources'),
-            InlineKeyboardButton('🗿️Mʏ Bᴏᴛs🕹️️', callback_data='contact')
+            InlineKeyboardButton('🤖️Mʏ Bᴏᴛs🤖️️', callback_data='source')
             ],[
             
             InlineKeyboardButton('💌 Aʙᴏᴜᴛ Aɴᴅ Extra💌', callback_data= 'about')
@@ -598,7 +598,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "source":
         buttons = [[
 
-            InlineKeyboardButton('😅 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ 😊', callback_data='contact')
+            InlineKeyboardButton('🤖 Fɪʟᴇ Tᴏ Lɪɴᴋ Bᴏᴛ 🤖', url='https://t.me/File_to_slink_bot') 
+            ], [
+            InlineKeyboardButton('📝Fɪʟᴇ Rᴇɴᴀᴍᴇ Bᴏᴛ 🤖', url='https://t.me/MRename_File_Bot')
         ], [
             InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='about')
         ]]
@@ -610,9 +612,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "info":
         buttons = [[
-            InlineKeyboardButton('😪 Hᴏᴡ Tᴏ Oᴩᴇɴ Mʏ Lɪɴᴋs 💢', url='https://t.me/Sharath_Links/13')
+            InlineKeyboardButton('😪 Hᴏᴡ Tᴏ Oᴩᴇɴ Pᴅɪsᴋ Pʀᴏ Lɪɴᴋs 💢', url='https://t.me/MarselUpadate/19')
         ], [
-            InlineKeyboardButton('📞 Cᴏɴᴛᴀᴄᴛ 📟', callback_data='contact')
+     InlineKeyboardButton('📞 Cᴏɴᴛᴀᴄᴛ 📟', callback_data='contact')
         ], [
             InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='about')
         ]]
